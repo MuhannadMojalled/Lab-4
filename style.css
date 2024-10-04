@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body>div {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    width: 600px;
+}
+
+label {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 30px;
+    width: 600px;
+    border-color: rgb(161, 161, 161);
+    border-style: solid;
+    border-radius: 3px;
+}
+
+textarea {
+    width: 600px;
+    border-color: rgb(161, 161, 161);
+    border-style: solid;
+}
+
+select {
+    border-color: rgb(161, 161, 161);
+    height: 30px;
+    width: 600px;
+    border-style: solid;
+    border-radius: 3px;
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    color: white;
+    background-color: black;
+    height: 35px;
+    width: 550px;
+}
